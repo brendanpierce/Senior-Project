@@ -1,0 +1,278 @@
+body {
+    background-color: black;
+    margin: 0;
+    min-width: 100%;
+    font-family: consolas;
+}
+
+.item1 {
+    grid-area: header;
+    height: 100px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.logo-align {
+    display: grid;
+    position: absolute;
+    z-index: 1;
+    height: 80px;
+}
+
+.logo {
+    z-index: 2;
+    width: 115px;
+    height: 80px;
+    position: relative;
+    margin: 20px 0 0 20px;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #e30303, 0 0 42px #e30303, 0 0 82px #e30303, 0 0 92px #e30303, 0 0 102px #e30303, 0 0 151px #e30303;
+}
+
+h1 {
+    border-radius: 20%;
+    border: 5px solid transparent;
+    display: flex;
+}
+
+.logo-letters {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin: -70px 0 0 3px;
+    z-index: 1;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+
+.links-container {
+    display: grid;
+    grid-template-areas:
+        'links links links';
+    gap: 1px;
+}
+
+.header-portfolio, .header-media, .header-contact-me {
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #e30303, 0 0 42px #e30303, 0 0 82px #e30303, 0 0 92px #e30303, 0 0 102px #e30303, 0 0 151px #e30303;
+
+}
+
+.links-container > div {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 30px;
+    height: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.portfolio-links-grid {
+    display: grid;
+    column-gap: 75px;
+    grid-template-columns: auto auto auto;
+    padding: 50px 0 50px 0;
+    height: 360px;
+    margin: -1000px 0 0 0;
+}
+
+.item-one, .item-two, .item-three {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 320px;
+    width: 300px;
+    margin: 350px auto 0 auto;
+    margin-top: 330px
+}
+ 
+.item-one {
+    margin: 450px -100px 0 auto;
+    position: relative;
+}
+
+.item-three {
+    margin: 450px auto 0 -100px;
+}
+
+.portfolio-header {
+    width: 1500px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 23px;
+    margin: 50px calc(50% - 750px) 600px calc(50% - 750px);
+    text-align: center;
+    position: relative;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #01fe01, 0 0 42px #01fe01, 0 0 82px #01fe01, 0 0 92px #01fe01, 0 0 102px #01fe01, 0 0 151px #01fe01;
+}
+
+.item-one, .item-three {
+    background-color: transparent;
+    border: 0px;
+}
+
+.background {
+    z-index: -1;
+    margin-top: -152px;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.github-logo {
+    height: 150px;
+    width: 150px;
+}
+
+.desc {
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #f82888, 0 0 42px #f82888, 0 0 82px #f82888, 0 0 92px #f82888, 0 0 102px #f82888, 0 0 151px #f82888;
+}
+
+p {
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.divider {
+    width: 300px;
+    height: 1px;
+    background-color: white;
+    margin-top: -10px;
+}
+
+.status {
+    color: #fff;
+    margin-top: -15px;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #01fe01, 0 0 42px #01fe01, 0 0 82px #01fe01, 0 0 92px #01fe01, 0 0 102px #01fe01, 0 0 151px #01fe01;
+
+}
+
+.status-header {
+    margin-top: 5px;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #f82888, 0 0 42px #f82888, 0 0 82px #f82888, 0 0 92px #f82888, 0 0 102px #f82888, 0 0 151px #f82888;
+
+}
+
+.portfolio-footer {
+    width: 1500px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 350px calc(50% - 750px) 50px calc(50% - 750px);
+    text-align: center;
+    position: relative;
+    color: #fff;
+    text-shadow:  0 0 7px #fff, 0 0 10px #fff, 0 0 21px #01fe01, 0 0 42px #01fe01, 0 0 82px #01fe01, 0 0 92px #01fe01, 0 0 102px #01fe01, 0 0 151px #01fe01;
+}
+
+
+.footer-item {
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.footer-container {     
+    margin: 0 calc(50% - 1000px) 0 calc(65% - 1000px);   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.youtube-link {
+    color: #fff;
+    margin-right: 25px;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #3500ff, 0 0 42px #3500ff, 0 0 82px #3500ff, 0 0 92px #3500ff, 0 0 102px #3500ff, 0 0 151px #3500ff;
+}
+
+.github-link {
+    color: #fff;
+    margin-right: 25px;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #00fdfd, 0 0 42px #00fdfd, 0 0 82px #00fdfd, 0 0 92px #00fdfd, 0 0 102px #00fdfd, 0 0 151px #00fdfd;
+}
+
+.linkedin-link {
+    color: #fff;
+    margin-right: 25px;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #01fe01, 0 0 42px #01fe01, 0 0 82px #01fe01, 0 0 92px #01fe01, 0 0 102px #01fe01, 0 0 151px #01fe01;
+}
+
+.location-link {
+    margin-right: 25px;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #e30303, 0 0 42px #e30303, 0 0 82px #e30303, 0 0 92px #e30303, 0 0 102px #e30303, 0 0 151px #e30303;    
+}
+
+.footer-contact-me {
+    margin-right: 25px;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #ff8600, 0 0 42px #ff8600, 0 0 82px #ff8600, 0 0 92px #ff8600, 0 0 102px #ff8600, 0 0 151px #ff8600;
+}
+
+.footer-portfolio {
+    margin-right: 25px;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fffe37, 0 0 42px #fffe37, 0 0 82px #fffe37, 0 0 92px #fffe37, 0 0 102px #fffe37, 0 0 151px #fffe37;
+}
+
+.footer-home {
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #ff8600, 0 0 42px #ff8600, 0 0 82px #ff8600, 0 0 92px #ff8600, 0 0 102px #ff8600, 0 0 151px #ff8600;
+}
+
+.footer-media {
+    margin-right: 25px;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #e30303, 0 0 42px #e30303, 0 0 82px #e30303, 0 0 92px #e30303, 0 0 102px #e30303, 0 0 151px #e30303;    
+    color: #fff;
+}
+
+.item5 {
+    grid-area: footer;
+    height: 310px;
+    background-color: transparent;
+}
+
+.background {
+    width: calc(100% - 1px);
+    height: 700px;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+    top: 0;
+
+}
+
+.background2 {
+    width: calc(100% - 1px);
+    height: 700px;
+    position: absolute;
+    opacity: 0.4;
+    margin-top: 700px;
+    transform: scaleY(-1);
+    top: -150px;
+    z-index: -1;
+}
+
+.title-desc {
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #00fdfd, 0 0 42px #00fdfd;
+
+}
+
+.page {
+    overflow: hidden;
+}
