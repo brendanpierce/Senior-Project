@@ -47,6 +47,8 @@ cd "Senior Project"
 python3 -m http.server 8000
 ```
 
+On Windows, use `python` instead of `python3`.
+
 Then open <http://localhost:8000/index/index.html>.
 
 Any other static server works too (for example, `npx serve .` or VS Code's Live Server extension), as long as its root is the `Senior Project` folder.
