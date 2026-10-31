@@ -1,6 +1,8 @@
 # Senior Project: Personal Portfolio Website
 
-A static personal portfolio site I built with plain HTML, CSS and JavaScript for my high school senior project. It has an about-me landing page, a portfolio of projects, a media page that links to my YouTube channel, and a working contact form.
+> **Archived:** This is an old project that I no longer maintain. I've left it up as a record of my high school senior project, so the site's content (bio, portfolio and media pages) reflects that time and won't be updated.
+
+A static personal portfolio site I built with plain HTML, CSS and JavaScript for my high school senior project. It has an about-me landing page, a portfolio of projects, a media page that links to my YouTube channel, and a contact form.
 
 ## Features
 
@@ -51,7 +53,7 @@ Any other static server works too (for example, `npx serve .` or VS Code's Live 
 
 ## Contact Form Notes
 
-The form posts to a FormSubmit endpoint. After a successful submission it redirects to `http://brendanpierce.com/success/success.html` (set in the hidden `_next` field in `contactme/contactme.html`). If you host the site somewhere else, update that URL.
+The form posts to a FormSubmit endpoint. After a successful submission it redirects to `http://brendanpierce.com/success/success.html` (set in the hidden `_next` field in `contactme/contactme.html`). Because the project isn't maintained, neither the form endpoint nor that redirect is guaranteed to still work.
 
 ## Links
 

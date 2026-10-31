@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const lightswitch = document.getElementsByClassName('lightswitch')[0];
     const shade = document.getElementsByClassName('shade')[0];
-    const click = new Audio('switch.mp3');
     const logo = document.getElementsByClassName('logo')[0];
     const logoLetters = document.getElementsByClassName('logo-letters')[0];
     const portfolio = document.getElementsByClassName('header-portfolio')[0];
@@ -44,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 lightswitch.addEventListener('click', function() {
     let delay = 500;
-    click.play();
     lightswitch.style.display = 'none';
     shade.style.display = 'none';
     
